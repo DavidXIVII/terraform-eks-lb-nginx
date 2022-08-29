@@ -7,15 +7,15 @@
 </div>
 <br />
 
-terrafrom-eks-lb-nginx is my own version and usage of Terraform with AWS EKS, LB & nginx.
+terrafrom-eks-lb-nginx is my own version and usage of Terraform with AWS eks, LoadBalancer & nginx.
 
-This was made using two guides, [Terraform EKS Deployment](https://learn.hashicorp.com/tutorials/terraform/eks?in=terraform/kubernetes) & [Clickittech](https://www.clickittech.com/devops/terraform-kubernetes-deployment/)
+This was made using two guides, [Terraform EKS Deployment](https://learn.hashicorp.com/tutorials/terraform/eks?in=terraform/kubernetes) & [Clickittech](https://www.clickittech.com/devops/terraform-kubernetes-deployment/).
 
 
 ## Current Goal:
 - Add an application deployment
 
-## Requirements:
+## Prerequisites:
 - AWS Account
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) version ~> 2
 - [Terraform](hashicorp.com)
@@ -24,7 +24,7 @@ This was made using two guides, [Terraform EKS Deployment](https://learn.hashico
 ## Usage:
 
 ```sh
-git clone
+git clone https://github.com/DavidXIVII/terraform-eks-lb-nginx
 ```
 
 
