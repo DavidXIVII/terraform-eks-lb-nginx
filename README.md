@@ -39,36 +39,26 @@ You will begin doing so on the main folder in order to initilize the creation fo
 ```sh
 terraform init
 ```
-
-
 ```sh
 terraform plan
 ```
-
-
 ```sh
 terraform apply
 ```
-
-
 ```sh
 aws eks --region $(terraform output -raw region) update-kubeconfig --name $(terraform output -raw cluster_name)
 ```
 
+## Deployment
 After that was done you are ready to deploy k8s pods in your network using LoadBalancer.
-
 Navigiate to the Application/Nginx folder and run:
 
 ```sh
 terraform init
 ```
-
-
 ```sh
 terraform plan
 ```
-
-
 ```sh
 terraform apply
 ```
