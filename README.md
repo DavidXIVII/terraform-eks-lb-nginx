@@ -13,7 +13,7 @@ This was made using two guides, [Terraform EKS Deployment](https://learn.hashico
 
 
 ## Current Goal:
-- Add an application deployment
+- Add an application deployment [V] - Done
 
 ## Prerequisites:
 - AWS Account
