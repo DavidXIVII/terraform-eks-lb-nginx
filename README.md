@@ -1,4 +1,3 @@
-# terraform-eks-lb-nginx
 <h1 align="center">Terraform + AWS EKS + LB + NGiNX</h1>
 
 <br />
