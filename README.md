@@ -24,21 +24,26 @@ This was made using two guides, [Terraform EKS Deployment](https://learn.hashico
 ## Usage:
 
 ```sh
-git clone```
+git clone
+```
 
 
 ```sh
-terraform init```
+terraform init
+```
 
 
 ```sh
-terraform plan```
+terraform plan
+```
 
 
 ```sh
-terraform apply```
+terraform apply
+```
 
 
 ```sh
 aws eks --region $(terraform output -raw region) update-kubeconfig \
-    --name $(terraform output -raw cluster_name)```
+    --name $(terraform output -raw cluster_name)
+```
