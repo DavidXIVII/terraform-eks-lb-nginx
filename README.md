@@ -27,7 +27,7 @@ This was made using two guides, [Terraform EKS Deployment](https://learn.hashico
 - [Terraform](https://hashicorp.com)
 
 
-## Usage:
+## Workspace Initialization:
 
 ```sh
 git clone https://github.com/DavidXIVII/terraform-eks-lb-nginx
@@ -49,7 +49,7 @@ terraform apply
 aws eks --region $(terraform output -raw region) update-kubeconfig --name $(terraform output -raw cluster_name)
 ```
 
-## Deployment
+## Application Deployment:
 After that was done you are ready to deploy k8s pods in your network using LoadBalancer.
 Navigiate to the Application/Nginx folder and run:
 
